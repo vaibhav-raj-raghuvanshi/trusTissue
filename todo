@@ -1,0 +1,29 @@
+Admin Dashboard Enhancements
+
+See list of all products with their status
+
+Filter by status (pending, approved, rejected)
+
+View which Verifier reviewed a product
+
+Verifier Enhancements
+
+Pagination or search in pending products
+
+Filter by product category
+
+Buyer Dashboard
+
+Browse approved products only
+
+View product images/files
+
+Seller Dashboard
+
+See all uploaded products with their verification status
+
+Email Notifications (Optional but powerful)
+
+Notify seller when product is approved/rejected
+
+Notify admin when a verifier is created or updated
