@@ -27,8 +27,7 @@ const Login = () => {
       const token = res.data.token;
       const payload = JSON.parse(atob(token.split(".")[1]));
 
-      // Save token and update context
-      localStorage.setItem("trustissue_token", token);
+     localStorage.setItem("trustissue_token", token);
       setAuth({
         token,
         role: payload.role,
@@ -37,7 +36,6 @@ const Login = () => {
 
       setMessage("Login successful ✅");
 
-      // 🔁 Redirect based on role
       navigate(`/dashboard/${payload.role}`);
     } catch (err) {
       setMessage(err.response?.data?.message || "Login failed");
