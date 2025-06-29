@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 
 const Verifier = require("../models/verifier");
 const Product = require("../models/Product");
-const Withdrawal = require("../models/withdrawal");
+const Withdrawal = require("../models/Withdrawal");
 
 const verifyAdmin = (req, res, next) => {
     const token = req.headers.authorization?.split(" ")[1];
