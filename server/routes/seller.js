@@ -7,8 +7,8 @@ const fs = require("fs");
 
 const Product = require("../models/Product");
 const Interest = require("../models/Interest");
-const Seller = require("../models/Seller");
-const Withdrawal = require("../models/withdrawal");
+const Seller = require("../models/seller");
+const Withdrawal = require("../models/Withdrawal");
 
 const verifySeller = (req, res, next) => {
   const authHeader = req.headers.authorization;
