@@ -7,7 +7,7 @@ It ensures that the product a seller is offering **matches exactly what the buye
 
 ## 🚀 Live Now!
 
-- **Frontend:** [https://trustissue-1.onrender.com/](https://trustissue-1.onrender.com/)  
+- **Frontend:** [[https://trustissue-1.onrender.com/](https://trus-tissue.vercel.app/)]  
 - **Backend:** [https://trustissue.onrender.com/](https://trustissue.onrender.com/)
 
 ---
