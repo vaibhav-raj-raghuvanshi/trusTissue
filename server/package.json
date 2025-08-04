@@ -1,0 +1,24 @@
+{
+  "name": "trustissue-server",
+  "version": "1.0.0",
+  "description": "Backend server for trusTissue – trust verification platform for informal marketplaces",
+  "main": "server.js",
+  "scripts": {
+    "start": "node mock-server.js",
+    "dev": "nodemon mock-server.js",
+    "start-real": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
